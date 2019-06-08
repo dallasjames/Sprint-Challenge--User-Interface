@@ -199,3 +199,16 @@ nav a {
 .middle-content .boxes .box:nth-child(10) {
     background: dodgerblue;
 }
+
+.square {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.square div {
+    width: 400px;
+    margin-bottom: 40px;
+}
