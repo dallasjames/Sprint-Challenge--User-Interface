@@ -211,4 +211,31 @@ nav a {
 .square div {
     width: 400px;
     margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted black;
+}
+
+.last {
+    margin-bottom: 40px;
+}
+
+.about {
+    padding-bottom: 20px;
+    border-bottom: 2px dotted black;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: white;
+}
+
+.square div p {
+    margin-bottom: 20px;
+}
+
+.square div img {
+    margin-bottom: 10px;
 }
