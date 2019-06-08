@@ -161,43 +161,83 @@ nav a {
 }
 
 .middle-content .boxes .box:nth-child(1) {
-    background: teal;
+    background: teal;    
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .middle-content .boxes .box:nth-child(2) {
     background: gold;
+    animation-name: spin;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .middle-content .boxes .box:nth-child(3) {
     background: cadetblue;
+    animation-name: spin;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .middle-content .boxes .box:nth-child(4) {
     background: coral;
+    animation-name: spin;
+    animation-duration: 700ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .middle-content .boxes .box:nth-child(5) {
     background: crimson;
+    animation-name: spin;
+    animation-duration: 600ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .middle-content .boxes .box:nth-child(6) {
     background: forestgreen;
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .middle-content .boxes .box:nth-child(7) {
     background: darkorchid;
+    animation-name: spin;
+    animation-duration: 400ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .middle-content .boxes .box:nth-child(8) {
     background: hotpink;
+    animation-name: spin;
+    animation-duration: 300ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .middle-content .boxes .box:nth-child(9) {
     background: indigo;
+    animation-name: spin;
+    animation-duration: 200ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .middle-content .boxes .box:nth-child(10) {
     background: dodgerblue;
+    animation-name: spin;
+    animation-duration: 100ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .square {
@@ -238,4 +278,19 @@ button {
 
 .square div img {
     margin-bottom: 10px;
+}
+
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}   
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }
